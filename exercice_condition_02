@@ -1,1 +1,7 @@
-
+''' Exercice 01: Réaliser un programme qui teste si une variable a (de type entier) est un nombre pair affiche, le cas échant, L'entier a est pair, completer le programme en affichant l'aternative L'antier a est impaire'''  
+#Solution :
+a = int(input("Vueillez siaisir un numéro : "))
+if a%2 ==0:
+    print("L'entier ", a, "est paire !")
+else:
+    print("L'entier ", a, " est impaire !")
