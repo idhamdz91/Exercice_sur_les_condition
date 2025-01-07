@@ -1,0 +1,15 @@
+''' 1er Exercice : Rédiger et exécuter les ligne de commandes pour afficher les dix premiers multiple de 7:'''
+c=0
+while c<11:
+    print(7*c)
+    c=c+1
+
+""" Ecrire un programme, qui calcule la somme 1+2+3+....+N des N premiers entiers.
+
+n = int(input("Vueilliez introduire un entier N: "))
+somme = 0
+
+for i in range (0, n+1):
+    somme += i
+    print ("la somme des", n,"premier entier est", somme)
+
